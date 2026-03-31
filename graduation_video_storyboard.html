@@ -1,0 +1,329 @@
+
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: var(--font-sans); }
+  .sb-wrap { padding: 1rem 0; max-width: 660px; }
+  .act-label { font-size: 11px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-text-tertiary); margin: 2rem 0 0.75rem; padding-bottom: 6px; border-bottom: 0.5px solid var(--color-border-tertiary); }
+  .act-label:first-child { margin-top: 0; }
+  .shot { display: flex; gap: 16px; margin-bottom: 20px; align-items: flex-start; }
+  .frame-box { flex-shrink: 0; width: 200px; }
+  .frame-svg { width: 200px; height: 115px; border-radius: 6px; border: 0.5px solid var(--color-border-secondary); display: block; }
+  .shot-meta { flex: 1; }
+  .shot-num { font-size: 11px; font-weight: 500; color: var(--color-text-tertiary); margin-bottom: 3px; }
+  .shot-title { font-size: 14px; font-weight: 500; color: var(--color-text-primary); margin-bottom: 5px; }
+  .shot-desc { font-size: 13px; color: var(--color-text-secondary); line-height: 1.6; margin-bottom: 6px; }
+  .shot-tag { display: inline-block; font-size: 11px; padding: 2px 8px; border-radius: 4px; margin-right: 4px; margin-top: 2px; }
+  .tag-lens { background: var(--color-background-info); color: var(--color-text-info); }
+  .tag-sound { background: var(--color-background-warning); color: var(--color-text-warning); }
+  .tag-note { background: var(--color-background-secondary); color: var(--color-text-secondary); border: 0.5px solid var(--color-border-secondary); }
+  .dialogue { font-size: 13px; font-style: italic; color: var(--color-text-primary); background: var(--color-background-secondary); border-left: 2px solid var(--color-border-secondary); padding: 6px 10px; margin-top: 6px; border-radius: 0 4px 4px 0; line-height: 1.6; }
+  .dialogue b { font-style: normal; font-weight: 500; color: var(--color-text-secondary); font-size: 11px; display: block; margin-bottom: 2px; }
+</style>
+
+<div class="sb-wrap">
+
+  <div class="act-label">Act I — The Dream / The Beach</div>
+
+  <!-- SHOT 1 -->
+  <div class="shot">
+    <div class="frame-box">
+      <svg class="frame-svg" viewBox="0 0 200 115" xmlns="http://www.w3.org/2000/svg">
+        <!-- sky -->
+        <rect x="0" y="0" width="200" height="70" fill="#b8d4e8"/>
+        <!-- ocean shimmer -->
+        <rect x="0" y="65" width="200" height="20" fill="#7aafcf" opacity="0.7"/>
+        <!-- sand -->
+        <rect x="0" y="80" width="200" height="35" fill="#d4b896"/>
+        <!-- desk rows surreal -->
+        <rect x="20" y="68" width="36" height="18" rx="2" fill="#c9a97a" opacity="0.85"/>
+        <rect x="65" y="65" width="36" height="18" rx="2" fill="#c9a97a" opacity="0.85"/>
+        <rect x="110" y="67" width="36" height="18" rx="2" fill="#c9a97a" opacity="0.85"/>
+        <rect x="155" y="66" width="36" height="18" rx="2" fill="#c9a97a" opacity="0.85"/>
+        <!-- sleeping figure at desk -->
+        <ellipse cx="38" cy="66" rx="7" ry="5" fill="#8a6545"/>
+        <rect x="25" y="68" width="20" height="4" rx="1" fill="#5a7fc0" opacity="0.8"/>
+        <!-- horizon haze -->
+        <rect x="0" y="63" width="200" height="5" fill="#c5dce8" opacity="0.5"/>
+        <!-- Eternal sunshine style — moody vignette-->
+        <rect x="0" y="0" width="200" height="115" fill="url(#vig)" rx="0"/>
+        <defs>
+          <radialGradient id="vig" cx="50%" cy="50%" r="70%">
+            <stop offset="60%" stop-color="transparent"/>
+            <stop offset="100%" stop-color="#000" stop-opacity="0.35"/>
+          </radialGradient>
+        </defs>
+        <text x="4" y="110" font-size="7" fill="#fff" opacity="0.6" font-family="sans-serif">WIDE ESTABLISHING</text>
+      </svg>
+    </div>
+    <div class="shot-meta">
+      <div class="shot-num">SHOT 01</div>
+      <div class="shot-title">Wide — Beach & Classroom Merged</div>
+      <div class="shot-desc">Wide shot reveals a surreal scene: school desks and chairs arranged naturally on a beach. Warm, overexposed light. Ocean in background. Students scattered. One student (our lead) is slumped asleep at a front desk. Reference: the bed-on-beach scene from <em>Eternal Sunshine</em> — grounded, not fantastical.</div>
+      <span class="shot-tag tag-lens">Wide / Drone or Dolly</span>
+      <span class="shot-tag tag-sound">Ambient ocean waves, faint school ambience layered</span>
+    </div>
+  </div>
+
+  <!-- SHOT 2 -->
+  <div class="shot">
+    <div class="frame-box">
+      <svg class="frame-svg" viewBox="0 0 200 115" xmlns="http://www.w3.org/2000/svg">
+        <rect x="0" y="0" width="200" height="115" fill="#c8dde8"/>
+        <rect x="0" y="80" width="200" height="35" fill="#cba87e"/>
+        <!-- desk close -->
+        <rect x="50" y="72" width="100" height="30" rx="3" fill="#b89060"/>
+        <!-- head on desk -->
+        <ellipse cx="100" cy="70" rx="13" ry="11" fill="#7a5c3a"/>
+        <!-- arm on desk -->
+        <rect x="60" y="76" width="45" height="8" rx="4" fill="#8b6040" opacity="0.8"/>
+        <text x="4" y="110" font-size="7" fill="#333" opacity="0.55" font-family="sans-serif">CLOSE-UP</text>
+      </svg>
+    </div>
+    <div class="shot-meta">
+      <div class="shot-num">SHOT 02</div>
+      <div class="shot-title">Close-up — Asleep at Desk</div>
+      <div class="shot-desc">Tight shot of the lead's face resting on his folded arms at the desk. Peaceful. Sound of the waves. Eyes closed. Slight breeze moves his hair. Hold for a beat.</div>
+      <span class="shot-tag tag-lens">Close-up, 50mm or 85mm</span>
+      <span class="shot-tag tag-sound">Waves dominant now</span>
+    </div>
+  </div>
+
+  <!-- SHOT 3 -->
+  <div class="shot">
+    <div class="frame-box">
+      <svg class="frame-svg" viewBox="0 0 200 115" xmlns="http://www.w3.org/2000/svg">
+        <rect x="0" y="0" width="200" height="115" fill="#c5d9e5"/>
+        <rect x="0" y="75" width="200" height="40" fill="#cca87d"/>
+        <!-- figure standing -->
+        <rect x="90" y="45" width="12" height="38" rx="4" fill="#5a7fc0"/>
+        <ellipse cx="96" cy="42" rx="9" ry="9" fill="#7a5c3a"/>
+        <!-- desk behind him -->
+        <rect x="70" y="72" width="55" height="12" rx="2" fill="#b08050" opacity="0.8"/>
+        <!-- friends cluster in BG -->
+        <ellipse cx="150" cy="70" rx="8" ry="8" fill="#8a6545" opacity="0.7"/>
+        <ellipse cx="165" cy="72" rx="7" ry="7" fill="#6a4535" opacity="0.6"/>
+        <ellipse cx="140" cy="73" rx="6" ry="6" fill="#9a7555" opacity="0.6"/>
+        <!-- bench/last row -->
+        <rect x="125" y="78" width="65" height="8" rx="2" fill="#9a7050" opacity="0.6"/>
+        <text x="4" y="110" font-size="7" fill="#333" opacity="0.55" font-family="sans-serif">MED. WIDE</text>
+      </svg>
+    </div>
+    <div class="shot-meta">
+      <div class="shot-num">SHOT 03</div>
+      <div class="shot-title">Lead Wakes, Stands</div>
+      <div class="shot-desc">Lead stirs, lifts his head, disoriented. He looks around — registers the beach, the desks, the ocean. He stands slowly. In the background, a group of friends are clustered around the last bench, talking. He looks at them.</div>
+      <span class="shot-tag tag-lens">Medium Wide</span>
+      <span class="shot-tag tag-note">Keep it dreamlike — no rush, no reaction</span>
+    </div>
+  </div>
+
+  <!-- SHOT 4 -->
+  <div class="shot">
+    <div class="frame-box">
+      <svg class="frame-svg" viewBox="0 0 200 115" xmlns="http://www.w3.org/2000/svg">
+        <rect x="0" y="0" width="200" height="115" fill="#bdd3e3"/>
+        <rect x="0" y="75" width="200" height="40" fill="#cba87a"/>
+        <!-- 3 friends, pointing -->
+        <ellipse cx="40" cy="65" rx="9" ry="9" fill="#7a5c3a"/>
+        <ellipse cx="65" cy="68" rx="9" ry="9" fill="#6a4535"/>
+        <ellipse cx="52" cy="67" rx="8" ry="8" fill="#8a6545"/>
+        <!-- pointing arms -->
+        <line x1="40" y1="73" x2="25" y2="85" stroke="#7a5c3a" stroke-width="4" stroke-linecap="round"/>
+        <line x1="65" y1="73" x2="20" y2="90" stroke="#6a4535" stroke-width="3.5" stroke-linecap="round"/>
+        <!-- shore / yasser silhouette far left -->
+        <ellipse cx="15" cy="78" rx="5" ry="8" fill="#4a3525" opacity="0.8"/>
+        <!-- water at shore -->
+        <rect x="0" y="82" width="30" height="8" rx="3" fill="#7aafcf" opacity="0.5"/>
+        <text x="4" y="110" font-size="7" fill="#fff" opacity="0.55" font-family="sans-serif">POV LEAD → FRIENDS</text>
+      </svg>
+    </div>
+    <div class="shot-meta">
+      <div class="shot-num">SHOT 04</div>
+      <div class="shot-title">"Where is Yasser?"</div>
+      <div class="shot-desc">Lead turns to his friends at the back bench. He asks. All three point simultaneously toward the shore. Camera follows their fingers to reveal — far away, at the water's edge — Yasser, crouched, washing his shoes in the sea.</div>
+      <div class="dialogue"><b>LEAD</b>"Where is Yasser?"</div>
+      <span class="shot-tag tag-lens">Over-shoulder → Pan to Shore</span>
+    </div>
+  </div>
+
+  <!-- SHOT 5 -->
+  <div class="shot">
+    <div class="frame-box">
+      <svg class="frame-svg" viewBox="0 0 200 115" xmlns="http://www.w3.org/2000/svg">
+        <rect x="0" y="0" width="200" height="75" fill="#a8c8de"/>
+        <rect x="0" y="68" width="200" height="47" fill="#c9a87a"/>
+        <!-- ocean edge -->
+        <rect x="0" y="65" width="200" height="12" rx="0" fill="#7aafcf" opacity="0.6"/>
+        <!-- Yasser figure from behind, crouched -->
+        <ellipse cx="100" cy="68" rx="12" ry="10" fill="#5a4030"/>
+        <rect x="88" y="74" width="24" height="20" rx="4" fill="#4a6090"/>
+        <!-- shoe in water -->
+        <ellipse cx="93" cy="90" rx="10" ry="4" fill="#3a3025" opacity="0.9"/>
+        <ellipse cx="107" cy="91" rx="9" ry="3.5" fill="#3a3025" opacity="0.7"/>
+        <!-- ripple -->
+        <ellipse cx="100" cy="89" rx="20" ry="5" fill="none" stroke="#7aafcf" stroke-width="1" opacity="0.7"/>
+        <text x="4" y="110" font-size="7" fill="#333" opacity="0.55" font-family="sans-serif">WIDE — SHORE</text>
+      </svg>
+    </div>
+    <div class="shot-meta">
+      <div class="shot-num">SHOT 05</div>
+      <div class="shot-title">Yasser at the Shore</div>
+      <div class="shot-desc">Wide shot of Yasser alone at the water's edge, back to camera, crouched, methodically washing his shoes in the shallow waves. Peaceful. The camera slowly pushes in as lead walks toward him from across the sand.</div>
+      <span class="shot-tag tag-lens">Slow push-in, wide → medium</span>
+      <span class="shot-tag tag-sound">Waves louder. No music yet.</span>
+    </div>
+  </div>
+
+  <!-- SHOT 6 — THE MONOLOGUE -->
+  <div class="shot">
+    <div class="frame-box">
+      <svg class="frame-svg" viewBox="0 0 200 115" xmlns="http://www.w3.org/2000/svg">
+        <rect x="0" y="0" width="200" height="75" fill="#9ec0d8"/>
+        <rect x="0" y="68" width="200" height="47" fill="#c8a47a"/>
+        <rect x="0" y="65" width="200" height="12" fill="#6aa4c5" opacity="0.55"/>
+        <!-- Two figures side by side, at water -->
+        <ellipse cx="80" cy="68" rx="10" ry="10" fill="#5a4030"/>
+        <rect x="70" y="75" width="20" height="22" rx="4" fill="#4a6090"/>
+        <ellipse cx="110" cy="68" rx="10" ry="10" fill="#7a5c3a"/>
+        <rect x="100" y="75" width="20" height="22" rx="4" fill="#5a7fc0"/>
+        <!-- Yasser looking at water, lead looking at Yasser -->
+        <line x1="80" y1="65" x2="60" y2="72" stroke="#5a4030" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+        <text x="4" y="110" font-size="7" fill="#fff" opacity="0.55" font-family="sans-serif">TWO-SHOT → YASSER CU</text>
+      </svg>
+    </div>
+    <div class="shot-meta">
+      <div class="shot-num">SHOT 06</div>
+      <div class="shot-title">The Monologue — Yasser Speaks</div>
+      <div class="shot-desc">Lead reaches Yasser. He sits or crouches beside him. Beat. He asks. Yasser doesn't look up — still washing, still watching the water. Then, quietly, he speaks. Cut between close-up on Yasser's face and the ocean, or hold on a two-shot.</div>
+      <div class="dialogue"><b>LEAD</b>"Why are you here alone?"</div>
+      <div class="dialogue"><b>YASSER</b>"Do you ever think... this moment in time is never coming back? All our 12 years in school — just gone, like that. The way time passes, linearly, to never come back. Wake up."</div>
+      <span class="shot-tag tag-lens">Two-shot / CU Yasser / Insert: waves</span>
+      <span class="shot-tag tag-sound">Music begins softly here — no lyrics</span>
+      <span class="shot-tag tag-note">Hold on the silence after "wake up"</span>
+    </div>
+  </div>
+
+  <div class="act-label">Act II — The Snap Back / Reality</div>
+
+  <!-- SHOT 7 -->
+  <div class="shot">
+    <div class="frame-box">
+      <svg class="frame-svg" viewBox="0 0 200 115" xmlns="http://www.w3.org/2000/svg">
+        <!-- classroom interior, warm light -->
+        <rect x="0" y="0" width="200" height="115" fill="#e8dfc8"/>
+        <!-- window light streak -->
+        <rect x="150" y="0" width="50" height="115" fill="#f5ecd0" opacity="0.5"/>
+        <!-- rows of desks -->
+        <rect x="10" y="50" width="55" height="18" rx="2" fill="#c8b890"/>
+        <rect x="75" y="50" width="55" height="18" rx="2" fill="#c8b890"/>
+        <rect x="140" y="50" width="50" height="18" rx="2" fill="#c8b890"/>
+        <rect x="10" y="78" width="55" height="18" rx="2" fill="#c8b890"/>
+        <rect x="75" y="78" width="55" height="18" rx="2" fill="#c8b890"/>
+        <!-- sitting figures -->
+        <ellipse cx="38" cy="47" rx="8" ry="7" fill="#7a5c3a"/>
+        <ellipse cx="103" cy="47" rx="8" ry="7" fill="#8a6545"/>
+        <!-- Yasser reaches over -->
+        <ellipse cx="103" cy="75" rx="8" ry="7" fill="#5a4030"/>
+        <line x1="103" y1="80" x2="80" y2="85" stroke="#5a4030" stroke-width="3" stroke-linecap="round"/>
+        <text x="4" y="110" font-size="7" fill="#333" opacity="0.55" font-family="sans-serif">SMASH CUT — CLASSROOM</text>
+      </svg>
+    </div>
+    <div class="shot-meta">
+      <div class="shot-num">SHOT 07</div>
+      <div class="shot-title">Smash Cut — Real Classroom</div>
+      <div class="shot-desc">Hard cut. A real, ordinary classroom. Fluorescent light, noise, life. Yasser leans over from his desk and taps the lead on the shoulder — or calls his name. "Hey, do you have a pen?" Lead blinks. Returns. Looks around. It's all real.</div>
+      <div class="dialogue"><b>YASSER (real)</b>"Yo, do you have a pen?"</div>
+      <span class="shot-tag tag-lens">Medium — handheld, naturalistic</span>
+      <span class="shot-tag tag-sound">Room noise, chairs, voices — full ambience hits</span>
+      <span class="shot-tag tag-note">No explanation of the dream. Just: life continues.</span>
+    </div>
+  </div>
+
+  <div class="act-label">Act III — The Child / Memory Sequence</div>
+
+  <!-- SHOT 8 -->
+  <div class="shot">
+    <div class="frame-box">
+      <svg class="frame-svg" viewBox="0 0 200 115" xmlns="http://www.w3.org/2000/svg">
+        <rect x="0" y="0" width="200" height="115" fill="#e5dcc5"/>
+        <!-- corridor / hallway -->
+        <rect x="80" y="0" width="40" height="115" fill="#d8ceaa" opacity="0.5"/>
+        <!-- lead figure walking, seen from behind -->
+        <rect x="90" y="50" width="18" height="35" rx="5" fill="#4a6090"/>
+        <ellipse cx="99" cy="46" rx="9" ry="9" fill="#7a5c3a"/>
+        <!-- child figure far ahead, smaller -->
+        <rect x="94" y="25" width="10" height="20" rx="3" fill="#8a9ccc" opacity="0.85"/>
+        <ellipse cx="99" cy="22" rx="6" ry="6" fill="#9a7c5a" opacity="0.8"/>
+        <!-- trailing effect — motion blur lines -->
+        <line x1="99" y1="65" x2="99" y2="80" stroke="#4a6090" stroke-width="1" opacity="0.25" stroke-dasharray="3 3"/>
+        <text x="4" y="110" font-size="7" fill="#333" opacity="0.55" font-family="sans-serif">FOLLOW — HALLWAY</text>
+      </svg>
+    </div>
+    <div class="shot-meta">
+      <div class="shot-num">SHOT 08</div>
+      <div class="shot-title">Lead Gets Up — Follows the Child</div>
+      <div class="shot-desc">Lead hands Yasser the pen in a daze. He gets up from his seat. Through the classroom window or door, he spots a small child — a younger version of himself — walking alone down the hallway, or playing in the distance. He follows instinctively.</div>
+      <span class="shot-tag tag-lens">Tracking shot from behind — lead follows child</span>
+      <span class="shot-tag tag-sound">Music swells softly — no words</span>
+      <span class="shot-tag tag-note">Child should never look back</span>
+    </div>
+  </div>
+
+  <!-- SHOT 9 -->
+  <div class="shot">
+    <div class="frame-box">
+      <svg class="frame-svg" viewBox="0 0 200 115" xmlns="http://www.w3.org/2000/svg">
+        <rect x="0" y="0" width="200" height="115" fill="#dcd3b8"/>
+        <!-- playground -->
+        <rect x="0" y="85" width="200" height="30" fill="#b8a880"/>
+        <!-- swing set simplified -->
+        <line x1="60" y1="20" x2="60" y2="75" stroke="#888" stroke-width="2"/>
+        <line x1="90" y1="20" x2="90" y2="75" stroke="#888" stroke-width="2"/>
+        <line x1="55" y1="20" x2="95" y2="20" stroke="#888" stroke-width="2.5"/>
+        <rect x="62" y="68" width="24" height="7" rx="2" fill="#6a5a40"/>
+        <!-- child on swing -->
+        <ellipse cx="74" cy="62" rx="7" ry="7" fill="#9a7c5a"/>
+        <rect x="67" y="68" width="14" height="15" rx="3" fill="#8a9ccc"/>
+        <!-- Lead in foreground watching, back to us -->
+        <rect x="90" y="55" width="16" height="35" rx="5" fill="#4a6090" opacity="0.9"/>
+        <ellipse cx="98" cy="51" rx="9" ry="9" fill="#7a5c3a" opacity="0.9"/>
+        <text x="4" y="110" font-size="7" fill="#333" opacity="0.55" font-family="sans-serif">WIDE — PLAYGROUND</text>
+      </svg>
+    </div>
+    <div class="shot-meta">
+      <div class="shot-num">SHOT 09</div>
+      <div class="shot-title">Child on the Playground</div>
+      <div class="shot-desc">The child is playing alone in the school playground — swinging, or running, or just standing and looking around with the wonder of someone who doesn't know how fast it will all go. Lead watches from a distance, unseen. He can't look away.</div>
+      <span class="shot-tag tag-lens">Wide — lead in foreground, child deep in frame</span>
+      <span class="shot-tag tag-sound">Ambient playground sounds under the music</span>
+      <span class="shot-tag tag-note">No dialogue. Hold long enough to feel it.</span>
+    </div>
+  </div>
+
+  <!-- SHOT 10 -->
+  <div class="shot">
+    <div class="frame-box">
+      <svg class="frame-svg" viewBox="0 0 200 115" xmlns="http://www.w3.org/2000/svg">
+        <rect x="0" y="0" width="200" height="115" fill="#d8cfb4"/>
+        <!-- Lead CU face — golden light -->
+        <ellipse cx="100" cy="55" rx="32" ry="32" fill="#c8a070" opacity="0.25"/>
+        <ellipse cx="100" cy="52" rx="20" ry="20" fill="#7a5c3a"/>
+        <!-- eyes looking somewhere -->
+        <ellipse cx="93" cy="50" rx="3" ry="2.5" fill="#2a1a0a"/>
+        <ellipse cx="107" cy="50" rx="3" ry="2.5" fill="#2a1a0a"/>
+        <!-- subtle light on face -->
+        <ellipse cx="100" cy="52" rx="20" ry="20" fill="#f5d8a0" opacity="0.18"/>
+        <text x="4" y="110" font-size="7" fill="#333" opacity="0.55" font-family="sans-serif">CLOSE-UP — LEAD</text>
+      </svg>
+    </div>
+    <div class="shot-meta">
+      <div class="shot-num">SHOT 10</div>
+      <div class="shot-title">Close-up — Lead's Face</div>
+      <div class="shot-desc">Tight on his face. He's not sad, not happy — just present. Awake. Like Yasser's words finally landed. The child runs off screen. The lead is left alone in the frame. A beat. Then — cut to the ceremony, or the credits roll.</div>
+      <span class="shot-tag tag-lens">Extreme close-up — eyes, expression</span>
+      <span class="shot-tag tag-sound">Music peaks quietly, then fades</span>
+      <span class="shot-tag tag-note">Final image — let it breathe before cut</span>
+    </div>
+  </div>
+
+</div>
